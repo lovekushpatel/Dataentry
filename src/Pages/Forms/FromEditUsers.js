@@ -313,7 +313,7 @@ const FromEditUsers = () => {
 
                     <button type="submit" className="btn btn-primary" disabled={isSubmitting}>
                       {isSubmitting ? "Updating..." : "Update"}
-                    </button>
+                    </button> 
                   </form>
                 </CardBody>
               </Card>

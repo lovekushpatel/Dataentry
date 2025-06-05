@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+  .table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  table {
+    white-space: nowrap;
+  }
+
+  .action-buttons {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5px;
+  }
+}
